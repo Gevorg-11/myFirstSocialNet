@@ -1,0 +1,5 @@
+.dialogPage{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    background-color: #318CE7;
+}

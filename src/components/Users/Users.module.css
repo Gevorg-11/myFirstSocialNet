@@ -1,0 +1,36 @@
+.imgUrl{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.usersPage{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    margin: 5px;
+}
+.avatar{
+
+}
+.usersInfo{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.initials{
+    justify-self: start;
+}
+.location{
+    justify-self: end;
+}
+.fullName{
+   grid-row: start;
+}
+.status{
+    grid-row: end;
+}
+.activePage{
+    cursor: pointer;
+    font-weight: bold;
+}
